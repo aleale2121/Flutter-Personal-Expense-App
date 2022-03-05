@@ -1,5 +1,4 @@
-import 'package:flutter/foundation.dart';
-class Transaction{
+class Transaction {
   final String id;
   final String title;
   final double amount;
