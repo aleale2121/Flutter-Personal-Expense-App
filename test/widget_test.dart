@@ -6,7 +6,7 @@ void main() {
   testWidgets('Simple Test', (WidgetTester tester) async {
     await tester.pumpWidget(MyApp());
 
-    final addButton = find.byType(Stepper);
+    final addButton = find.byType(FloatingActionButton);
     expect(addButton, findsOneWidget);
   });
 }
